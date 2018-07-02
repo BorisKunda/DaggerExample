@@ -12,7 +12,7 @@ public class PlaneModule {
 
     @Provides//Can be used on methods in classes annotated with @Module and is used for methods which provides objects for dependencies injection.
     Plane providePlane() {
-        return new Plane();
+        return new Plane("Stealth");
     }
 
 }

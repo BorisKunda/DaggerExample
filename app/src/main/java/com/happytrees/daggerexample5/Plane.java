@@ -6,6 +6,12 @@ public class Plane {
 
 
 
+    public String model;
+
+    public Plane(String model) {
+        this.model = model;
+    }
+
     public void fly() {
 
 
